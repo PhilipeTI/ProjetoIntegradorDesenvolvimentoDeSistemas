@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="jComboBox1" min="-2" pref="190" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="jComboBox3" min="-2" pref="190" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jComboBox2" min="-2" pref="190" max="-2" attributes="0"/>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="300" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jComboBox3" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jComboBox2" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="170" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="31" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagens/United-Church-Naynooth-2017-10-22.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Cesta de P&#xe3;es"/>
+            <StringItem index="1" value="Mini Franc&#xea;s"/>
+            <StringItem index="2" value="Mini Gergelim"/>
+            <StringItem index="3" value="Mini ciabatta"/>
+            <StringItem index="4" value="Mini Croissant"/>
+            <StringItem index="5" value="Mini Parmes&#xe3;o"/>
+            <StringItem index="6" value="Mini P&#xe3;o de Queijo"/>
+            <StringItem index="7" value="Mini Baguete"/>
+            <StringItem index="8" value="Mini Baguete Gergelim"/>
+            <StringItem index="9" value="Italiano"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="19">
+            <StringItem index="0" value="Cesta de Queijo e Vinho"/>
+            <StringItem index="1" value="Vinho Tinto"/>
+            <StringItem index="2" value="Bom Gourter"/>
+            <StringItem index="3" value="Batata Pringles"/>
+            <StringItem index="4" value="Amendoim"/>
+            <StringItem index="5" value="Castanha de Caj&#xfa;"/>
+            <StringItem index="6" value="Bombons Ferrero Rocher"/>
+            <StringItem index="7" value="Sardela"/>
+            <StringItem index="8" value="Pat&#xea;"/>
+            <StringItem index="9" value="Queijo Polenguinho"/>
+            <StringItem index="10" value="Queijo Reino"/>
+            <StringItem index="11" value="Frios (salame e Peito de Peru)"/>
+            <StringItem index="12" value="Queijo Provolone com Ervas"/>
+            <StringItem index="13" value="Mini Croissants"/>
+            <StringItem index="14" value="Mini p&#xe3;es Gergelim"/>
+            <StringItem index="15" value="Ciabata 3/4"/>
+            <StringItem index="16" value="P&#xe3;o Italiano"/>
+            <StringItem index="17" value="Mini Baguete"/>
+            <StringItem index="18" value="Brownie"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox3">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="26">
+            <StringItem index="0" value="Cesta de Caf&#xe9; da Manh&#xe3;"/>
+            <StringItem index="1" value="Caneca de Porcelana"/>
+            <StringItem index="2" value="Suco"/>
+            <StringItem index="3" value="Iogurte"/>
+            <StringItem index="4" value="Achocolatado"/>
+            <StringItem index="5" value="&#xc1;gua de Coco"/>
+            <StringItem index="6" value="Frutas"/>
+            <StringItem index="7" value="Sach&#xea; de Manteiga"/>
+            <StringItem index="8" value="Ponguinhos, Frios"/>
+            <StringItem index="9" value="Trufas"/>
+            <StringItem index="10" value="Sach&#xea;s de Gel&#xe9;ia"/>
+            <StringItem index="11" value="Muffin"/>
+            <StringItem index="12" value="Mini Croissants"/>
+            <StringItem index="13" value="Mini Brioches"/>
+            <StringItem index="14" value="Mini P&#xe3;es Franceses"/>
+            <StringItem index="15" value="Mini Baguetes"/>
+            <StringItem index="16" value="Mini Ciabatta"/>
+            <StringItem index="17" value="Mini p&#xe3;es de Queijo"/>
+            <StringItem index="18" value="Mini Sonhos"/>
+            <StringItem index="19" value="Lua e Mel"/>
+            <StringItem index="20" value="Carolinas"/>
+            <StringItem index="21" value="Sach&#xea; de Capuccino"/>
+            <StringItem index="22" value="Ch&#xe1;"/>
+            <StringItem index="23" value="A&#xe7;&#xfa;car"/>
+            <StringItem index="24" value="Ado&#xe7;antes "/>
+            <StringItem index="25" value="Guardanapos"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Voltar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
